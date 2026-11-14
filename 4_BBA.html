@@ -30,8 +30,8 @@ button,a{touch-action:manipulation}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
-<body class="min-h-[100dvh] flex justify-center text-slate-800 p-0 sm:pt-4">
-<div id="app" class="w-full max-w-lg bg-white rounded-none sm:rounded-3xl shadow-xl shadow-sky-100 border-0 sm:border border-sky-100 overflow-hidden p-4 sm:p-7 flex flex-col h-[100dvh] sm:h-[92vh] sm:max-h-[820px]">
+<body class="min-h-[100dvh] flex flex-col items-center text-slate-800 p-0 sm:pt-4">
+<main id="app" class="w-full max-w-lg bg-white rounded-none sm:rounded-3xl shadow-xl shadow-sky-100 border-0 sm:border border-sky-100 overflow-hidden p-4 sm:p-7 flex flex-col h-[100dvh] sm:h-[92vh] sm:max-h-[820px]">
 
 <div id="menu-view" class="flex flex-col h-full overflow-y-auto custom-scrollbar">
 <div>
@@ -100,7 +100,8 @@ button,a{touch-action:manipulation}
 <button onclick="showMenu()" class="w-full bg-sky-500 hover:bg-sky-600 text-white font-semibold py-3.5 px-4 rounded-xl transition shadow-lg shadow-sky-500/20">ត្រឡប់ទៅម៉ឺនុយដើម</button>
 </div>
 </div>
-</div>
+</main>
+<footer class="py-3 text-center text-xs text-sky-700">Copyright © 2026 LemmaLap</footer>
 
 <div class="popup-overlay" id="donatePopup" onclick="if(event.target===this)closePopup()">
 <div class="popup-card" role="dialog" aria-modal="true">
